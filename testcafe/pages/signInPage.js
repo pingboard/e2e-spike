@@ -28,6 +28,11 @@ class SignInPage extends BasePage {
             .click(this.signInBtn);
     }
 
+    /**
+     * sign in via a passed role
+     * @param  {object} userRole - a json object from data/users.js
+     * @return {promise}
+     */
     async signInAs(userRole) {
         await this.signIn(userRole.email, userRole.password);
     }

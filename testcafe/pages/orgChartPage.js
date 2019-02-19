@@ -19,6 +19,11 @@ class OrgChartPage extends BasePage {
         this.nodes = $('#nodeContainer .node'); // all user nodes
     }
 
+    /**
+     * search an org chart
+     * @param  {string} text
+     * @return {promise}
+     */
     async searchFor(text) {
         await t.typeText(this.searchInput, text)
     }

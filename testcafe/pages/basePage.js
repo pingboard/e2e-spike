@@ -7,7 +7,7 @@ export default class BasePage {
     }
 
     /**
-     * warper for navigateTo so we can use relative urls and append them to baseUrl
+     * wrapper for navigateTo so we can use relative urls and append them to baseUrl
      * @param  {string} relativeUrl
      * @return {promise}
      */
