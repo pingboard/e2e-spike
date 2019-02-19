@@ -2,15 +2,12 @@
 _Pingboard e2e tests written in [Protractor](http://www.protractortest.org)_
 
 ## Setup:
-* Install [Node](http://nodejs.org) (v8.x.x or later)
-* `git clone git@github.com:qualityshepherd/protractor-example.git`
+* `git clone git@github.com:pingboard/e2e-spike.git`
 * `npm i` to install the project dependencies
+* search 1Password for `e2e` and past the json in `data/users.js`
 
 ## Run tests:
-* run tests via plain Protractor `node_modules/.bin/protractor conf.js`
-* run tests `npm test` (runs via flake, which re-runs failed tests)
-* run with flake `./flake conf.js`
-* run on saucelabs`./flake sauceConf.js` (add your username/key)
+* `npm test`
 
 ## Troubleshooting
 * run `node -v` and make sure your node version is 8.x.x or greater

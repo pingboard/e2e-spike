@@ -1,9 +1,7 @@
 # Pingboard E2E Tests
 _Pingboard e2e tests written in [Testcafe](https://devexpress.github.io/testcafe/)_
 
-## Setup
-1. clone `clone git@github.com:qualityshepherd/testcafe-example.git`
-2. install `npm i`
-3. create file `data/users.js` with data from 1password (search for otto users)
-4. run `npm test` to watch in browser, or `npm run test:all` to run parallel, headless, on Chrome and Firefox
-
+## Setup:
+* `git clone git@github.com:pingboard/e2e-spike.git`
+* `npm i` to install the project dependencies
+* search 1Password for `e2e` and past the json in `data/users.js`
