@@ -12,9 +12,9 @@ export default class BasePage {
      * @return {promise}
      */
     async goto(relativeUrl = null) {
-        if(url) {
+        if(relativeUrl) {
             // url is passed
-            await t.navigateTo(url);
+            await t.navigateTo(relativeUrl);
         } else {
             // get url from page object
             await t.navigateTo(this.url);
