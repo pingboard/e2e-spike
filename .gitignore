@@ -2,4 +2,5 @@
 .AppleDouble
 /node_modules
 config.js
-data/users.js
+testcafe/data/users.js
+protractor/data/users.js
