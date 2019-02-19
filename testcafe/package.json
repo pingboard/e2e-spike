@@ -1,0 +1,18 @@
+{
+  "name": "Pingboard",
+  "version": "1.0.0",
+  "description": "Pingboard end to end (UI) tests",
+  "engines": {
+    "node": "8.7.0"
+  },
+  "main": "index.js",
+  "scripts": {
+    "test": "testcafe chrome tests/",
+    "test:all": "testcafe -c 3 chrome:headless,firefox:headless tests/",
+    "test:firefox": "testcafe -c 3 firefox tests/"
+  },
+  "author": "Brine",
+  "dependencies": {
+    "testcafe": "^0.23.3"
+  }
+}
