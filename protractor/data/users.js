@@ -1,3 +1,3 @@
-export default {
-    admin : {'email': 'brian.ray@pingboard.com', 'password': 'I hate passwords'},
-};
+/**
+ * Search 1Password for e2e and paste json below...
+ */
