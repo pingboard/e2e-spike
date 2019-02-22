@@ -8,7 +8,7 @@ import BasePage from './basePage';
 class SignInPage extends BasePage {
     constructor() {
         super();
-        this.url        = `${this.baseUrl}sign_in`;
+        this.url = `${this.baseUrl}/sign_in`;
         this.signInForm = $('#new_user');
         this.signInEmail = $('#user_email');
         this.signInPassword = $('#user_password');

@@ -5,3 +5,7 @@ _Pingboard e2e tests written in [Testcafe](https://devexpress.github.io/testcafe
 * `git clone git@github.com:pingboard/e2e-spike.git`
 * `npm i` to install the project dependencies
 * search 1Password for `e2e` and past the json in `data/users.js`
+
+## Running Tests
+* All: `npm test`
+* Specify environment: `testcafe chrome tests/ --env=https://isis.pingboardbeta.com`

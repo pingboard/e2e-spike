@@ -4,7 +4,7 @@ import BasePage from './basePage';
 class HomePage extends BasePage {
     constructor() {
         super();
-        this.url = `${this.baseUrl}home`;
+        this.url = `${this.baseUrl}/home`;
         this.userMenu = $('#user-menu');
     }
 }

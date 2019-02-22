@@ -4,7 +4,7 @@ import BasePage from './basePage';
 class OrgChartPage extends BasePage {
     constructor() {
         super();
-        this.url = `${this.baseUrl}org_chart`;
+        this.url = `${this.baseUrl}/org_chart`;
 
         // search...
         // TODO: make this a module
