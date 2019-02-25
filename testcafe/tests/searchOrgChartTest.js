@@ -1,13 +1,10 @@
 import signInPage from '../pages/signInPage';
 import orgChartPage from '../pages/orgChartPage';
-import once from '../lib/once';
-import users from '../data/users';
-const admin = users.admin;
+import { admin } from '../data/roles';
 
 fixture `Org Chart Search`
-    .page `${signInPage.url}`
     .beforeEach(async t => {
-        await signInPage.signInAs(admin);
+        await t.useRole(admin);
         await orgChartPage.goto();
     });
 
@@ -25,7 +22,7 @@ fixture `Org Chart Search`
         await t.expect(orgChartPage.noResultsFound.visible).ok();
     });
 
-/*
+/* TODO:
 From Ryan:
 The org chart search consumes the same `filter-combobox` code as several other comboboxes,
 so whenever changes are made to the `filter-combobox` a number of components should to be checked
