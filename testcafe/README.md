@@ -10,3 +10,8 @@ _Pingboard e2e tests written in [Testcafe](https://devexpress.github.io/testcafe
 * all on chrome: `npm test`
 * list various runners: `npm run`
 * Specify environment: `./node_modules/.bin/testcafe chrome tests/ --env=https://isis.pingboardbeta.com`
+
+## Browserstack
+* set BROWSERSTACK_USERNAME and BROWSERSTACK_ACCESS_KEY env vars ([from browserstack](https://automate.browserstack.com/dashboard))
+* get available browser list: `./node_modules/.bin/testcafe -b browserstack`
+* run 'em: `./node_modules/.bin/testcafe "browserstack:Chrome@53.0:Windows 10" tests/`
