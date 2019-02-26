@@ -17,6 +17,7 @@
   "dependencies": {
     "minimist": "^1.2.0",
     "testcafe": "^0.23.3",
-    "testcafe-browser-provider-browserstack": "^1.8.0"
+    "testcafe-browser-provider-browserstack": "^1.8.0",
+    "testcafe-browser-provider-crossbrowsertesting": "^1.0.6"
   }
 }
