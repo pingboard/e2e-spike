@@ -1,4 +1,3 @@
-import signInPage from '../pages/signInPage';
 import orgChartPage from '../pages/orgChartPage';
 import { admin } from '../data/roles';
 

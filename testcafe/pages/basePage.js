@@ -18,8 +18,8 @@ export default class BasePage {
      */
     async goto(relativeUrl = null) {
         if(relativeUrl) {
-            // url is passed
-            await t.navigateTo(relativeUrl);
+            // navigate via relative paths
+            await t.navigateTo(`${this.url}${relativeUrl}`);
         } else {
             // get url from page object
             await t.navigateTo(this.url);
