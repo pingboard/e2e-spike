@@ -2,7 +2,7 @@ import orgChartPage from '../pages/orgChartPage';
 import { admin } from '../data/roles';
 const centerId = '108458'; // pam
 
-fixture `Org Chart Modes`
+fixture `Org Chart URL Overrides`
     .beforeEach(async t => {
         await t.useRole(admin);
     });
