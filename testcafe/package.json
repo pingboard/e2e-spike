@@ -10,13 +10,12 @@
     "test": "./node_modules/.bin/testcafe chrome tests/",
     "all": "./node_modules/.bin/testcafe -c 3 chrome:headless,firefox:headless tests/",
     "ff": "./node_modules/.bin/testcafe -c 3 firefox tests/",
-    "ie": "./node_modules/.bin/testcafe -c 3 'browserstack:ie@11.0:Windows 10' tests/",
-    "chrome": "./node_modules/.bin/testcafe -c 3 'browserstack:chrome@72.0:Windows 10' tests/"
+    "ie": "./node_modules/.bin/testcafe -c 3 'crossbrowsertesting:Internet Explorer@11:Windows 10' tests/"
   },
   "author": "Brine",
   "dependencies": {
     "minimist": "^1.2.0",
-    "testcafe": "^0.23.3",
+    "testcafe": "^1.1.0",
     "testcafe-browser-provider-browserstack": "^1.8.0",
     "testcafe-browser-provider-crossbrowsertesting": "^1.0.6"
   }
